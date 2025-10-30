@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #2b2d42;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.book-card {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
