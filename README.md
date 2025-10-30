@@ -22,7 +22,7 @@ A simple and responsive Book Finder web application built using React and the Op
 - CSS
 - Open Libray API
 - State Management (React Hooks)
-- Deployment (Stackblitz)
+- Deployment (CodeSandbox)
 
 # How It Works
 
@@ -48,7 +48,7 @@ App will be live at http://localhost:3000/
 
 # Live Demo
 
-🔗 Deployed App: https://stackblitz.com/~/github.com/Dhana0607/book-finder
+🔗 Deployed App: https://codesandbox.io/p/github/Dhana0607/book-finder/main
 
 # Candidate ID
 
